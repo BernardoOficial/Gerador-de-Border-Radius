@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerador de Border-Radius</title>
+
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- VISUALIZADOR DO BORDER-RADIUS -->
+        <div class="blocoVisualizador">
+
+            <h1>Gerador de Border-Radius</h1>
+
+            <section class="visualizador">
+                <span class="mensagem">Seu código aparecerá aqui! Selecione o texto e copie para seu código.</span>
+            </section>
+        </div>
+
+        <form id="formLeitor">
+            <section class="leitores-left">
+                <input type="text" id="top-left" name="topEsquerdo" class="bt-top-left" 
+                placeholder="Digite o canto Top-Left em pixel">
+                
+                <input type="text" id="bottom-left" name="bottomEsquerdo" class="bt-bottom-left" 
+                placeholder="Digite o canto Bottom-left em pixel">
+            </section>
+
+            <section class="leitores-right">
+                <input type="text" id="top-right" name="topDireito" class="bt-top-right" 
+                placeholder="Digite o canto Top-Right em pixel">
+        
+                <input type="text" id="bottom-rigth" name="bottomDireito" class="bt-bottom-right" 
+                placeholder="Digite o canto Bottom-Right em pixel">        
+            </section>
+        </form>
+        
+
+        <!-- CHAMANDO O ARQUIVO JAVASCRIPT EXTERNO -->
+        <script src="./assets/js/script.js"></script>
+    
+    </body>
+
+</html>
